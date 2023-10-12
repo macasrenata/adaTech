@@ -9,7 +9,7 @@ var twoSum = function(nums, target) {
 
     const numToIndex = new Map(); // Um mapa para armazenar números e seus índices
 
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 0; i < nums.length; i++) { // nessa linha o i é o indice do array e o nums[i] é o valor do array e o for vai percorrer o array inteiro
         const complement = target - nums[i];
         
         // Se o complemento estiver no mapa, retornar os índices
